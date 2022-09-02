@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotPad</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="main-title">
+            Notpad
+        </h1>
+
+    </header>
+    <form action="#">
+        <input type="text" class="input-misson" placeholder="Enter note">
+        <button type="submit">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </form>
+    <div class="mission-container">
+        <ul class="mission-list">
+            <div class="mission-item mission-completed">
+                <li class="mission-tanim">Go market</li>
+                <button class="mission-btn mission-completed">
+                    <i class="far fa-check-square"></i>
+                </button>
+                <button class="mission-btn mission-delete">
+                    <i class="far fa-trash-alt"></i>
+                </button>
+            </div>
+            <div class="mission-item mission-completed">
+                <li class="mission-tanim">Go market</li>
+                <button class="mission-btn mission-completed">
+                    <i class="far fa-check-square"></i>
+                </button>
+                <button class="mission-btn mission-delete">
+                    <i class="far fa-trash-alt"></i>
+                </button>
+            </div>
+
+        </ul>
+
+    </div>
+    <script src="notepad.js"></script>
+</body>
+</html>
